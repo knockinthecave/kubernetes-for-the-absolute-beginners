@@ -20,7 +20,7 @@ Udemy 강의 [Learn Kubernetes](https://www.udemy.com/course/learn-kubernetes)�
 | [Minikube Practice](./02.Kubernetes%20Concepts/01.Minikube%20Practice.md) | minikube 설치, 샘플 앱 배포, arm64 트러블슈팅 |
 | [Pod](./02.Kubernetes%20Concepts/02.Pod.md) | Pod 개념, 스케일링, 멀티 컨테이너 Pod |
 | [Pods with YAML](./02.Kubernetes%20Concepts/03.Pods%20with%20YAML.md) | 정의 파일의 최상위 필드 4개, 레이블, kubectl create -f |
-| [Replication Controllers and ReplicaSets](./02.Kubernetes%20Concepts/04.Replication%20Controllers%20and%20ReplicaSets.md) | 컨트롤러, 복제가 필요한 이유, RC·ReplicaSet 정의 파일, 레이블과 selector, 스케일링, 실습 |
+| [Replication Controllers and ReplicaSets](./02.Kubernetes%20Concepts/04.Replication%20Controllers%20and%20ReplicaSets.md) | 컨트롤러, 복제가 필요한 이유, RC·ReplicaSet 정의 파일, 레이블과 selector, 스케일링, 자동 복구·초과 Pod 삭제 실습 |
 
 ### 03. YAML Introduction
 

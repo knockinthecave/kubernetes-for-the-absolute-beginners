@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: myapp-replicaset
+  labels:
+    app: myapp
+# 중요하게 생각해야할 부분은
+# Pod에 설정된 레이블과 selector에 설정된 레이블이 일치하는지 확인하는 부분이다.
+spec:
+  selector:
+    matchLabels:
+      app: myapp
+  replicas: 3
+  template:
+    metadata:
+      name: nginx
+      labels:
+        app: myapp
+    spec:  # Pod
+      containers:
+          - name: nginx
+            image: nginx
