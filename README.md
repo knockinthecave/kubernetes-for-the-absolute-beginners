@@ -19,6 +19,7 @@ Udemy 강의 [Learn Kubernetes](https://www.udemy.com/course/learn-kubernetes)�
 |------|------|
 | [Minikube Practice](./02.Kubernetes%20Concepts/01.Minikube%20Practice.md) | minikube 설치, 샘플 앱 배포, arm64 트러블슈팅 |
 | [Pod](./02.Kubernetes%20Concepts/02.Pod.md) | Pod 개념, 스케일링, 멀티 컨테이너 Pod |
+| [Pods with YAML](./02.Kubernetes%20Concepts/03.Pods%20with%20YAML.md) | 정의 파일의 최상위 필드 4개, 레이블, kubectl create -f |
 
 ### 03. YAML Introduction
 
