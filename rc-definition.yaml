@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:  # ReplicationController
+  name: myapp-rc
+  labels:
+    app: myapp
+    type: front-end
+# 정의 파일에서 가장 중요함!
+spec:  # ReplicationController
+  template:
+    metadata:  # Pod
+      name: myapp-pod
+      labels:
+        app: myapp
+        type: front-end
+    spec:  # Pod
+      containers:
+      - name: nginx-container
+        image: nginx
+
+  replicas: 3
