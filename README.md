@@ -20,6 +20,12 @@ Udemy 강의 [Learn Kubernetes](https://www.udemy.com/course/learn-kubernetes)�
 | [Minikube Practice](./02.Kubernetes%20Concepts/01.Minikube%20Practice.md) | minikube 설치, 샘플 앱 배포, arm64 트러블슈팅 |
 | [Pod](./02.Kubernetes%20Concepts/02.Pod.md) | Pod 개념, 스케일링, 멀티 컨테이너 Pod |
 
+### 03. YAML Introduction
+
+| 문서 | 내용 |
+|------|------|
+| [Introduction](./03.YAML%20Introduction/01.Introduction.md) | YAML 키-값, 배열, 딕셔너리, 들여쓰기 규칙 |
+
 ## 실습 환경
 
 - Apple Silicon (arm64), macOS
