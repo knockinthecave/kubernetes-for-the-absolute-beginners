@@ -22,12 +22,19 @@ Udemy 강의 [Learn Kubernetes](https://www.udemy.com/course/learn-kubernetes)�
 | [Pods with YAML](./02.Kubernetes%20Concepts/03.Pods%20with%20YAML.md) | 정의 파일의 최상위 필드 4개, 레이블, kubectl create -f |
 | [Replication Controllers and ReplicaSets](./02.Kubernetes%20Concepts/04.Replication%20Controllers%20and%20ReplicaSets.md) | 컨트롤러, 복제가 필요한 이유, RC·ReplicaSet 정의 파일, 레이블과 selector, 스케일링, 자동 복구·초과 Pod 삭제 실습 |
 | [Deployments](./02.Kubernetes%20Concepts/05.Deployments.md) | Deployment가 필요한 이유, 롤링 업데이트·롤백, 오브젝트 계층, 정의 파일, 생성·조회 실습 |
+| [Updates and Rollback](./02.Kubernetes%20Concepts/06.Updates%20and%20Rollback.md) | 롤아웃·리비전, Recreate vs Rolling Update, apply·set image 업데이트, ReplicaSet 내부 동작, rollout undo 롤백 |
 
 ### 03. YAML Introduction
 
 | 문서 | 내용 |
 |------|------|
 | [Introduction](./03.YAML%20Introduction/01.Introduction.md) | YAML 키-값, 배열, 딕셔너리, 들여쓰기 규칙 |
+
+### 04. Networking in Kubernetes
+
+| 문서 | 내용 |
+|------|------|
+| [Basic of Networking in Kubernetes](./04.Networking%20in%20Kubernetes/01.Basic%20of%20Networking%20in%20Kubernetes.md) | 노드·Pod IP, 멀티 노드 IP 충돌, 네트워킹 요구사항, CNI(Flannel·Calico), 네트워크 대역 구분 |
 
 ## 실습 환경
 
