@@ -36,6 +36,12 @@ Udemy 강의 [Learn Kubernetes](https://www.udemy.com/course/learn-kubernetes)�
 |------|------|
 | [Basic of Networking in Kubernetes](./04.Networking%20in%20Kubernetes/01.Basic%20of%20Networking%20in%20Kubernetes.md) | 노드·Pod IP, 멀티 노드 IP 충돌, 네트워킹 요구사항, CNI(Flannel·Calico), 네트워크 대역 구분 |
 
+### 05. Services
+
+| 문서 | 내용 |
+|------|------|
+| [Services & NodePort](./05.Services/01.Services%20%26%20NodePort.md) | Service가 필요한 이유, 유형(NodePort·ClusterIP·LoadBalancer), 세 가지 포트, 정의 파일, label·selector 연결, 다중 Pod·노드 동작 |
+
 ## 실습 환경
 
 - Apple Silicon (arm64), macOS
