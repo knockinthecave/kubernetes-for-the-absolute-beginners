@@ -41,6 +41,8 @@ Udemy 강의 [Learn Kubernetes](https://www.udemy.com/course/learn-kubernetes)�
 | 문서 | 내용 |
 |------|------|
 | [Services & NodePort](./05.Services/01.Services%20%26%20NodePort.md) | Service가 필요한 이유, 유형(NodePort·ClusterIP·LoadBalancer), 세 가지 포트, 정의 파일, label·selector 연결, 다중 Pod·노드 동작 |
+| [ClusterIP](./05.Services/02.ClusterIP.md) | 계층 간 내부 통신, Pod IP가 불안정한 이유, ClusterIP Service 정의 파일, selector 연결 |
+| [LoadBalancer](./05.Services/03.LoadBalancer.md) | NodePort의 한계(노드별 URL), HAProxy 직접 구축 vs 클라우드 LB, LoadBalancer 유형 정의 파일, 지원 플랫폼 제한 |
 
 ## 실습 환경
 
